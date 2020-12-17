@@ -3,6 +3,7 @@ PYTHON BASICS - CODE NEXT CONNECT
 Run the script in a terminal to test:
   $ python3 basics.py
 """
+from sense_hat import SenseHat
 
 #printing to the terminal:
 print("Welcome to Python Basics!")
@@ -21,3 +22,6 @@ year_born = 1925
 
 
 # TODO:Write a similar statement for a different notable person of your choice! 
+
+
+# TODO:Print it out to the Sense HAT!
