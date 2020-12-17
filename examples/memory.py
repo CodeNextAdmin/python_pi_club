@@ -123,8 +123,7 @@ def next_level():
 
         else:
             sense.set_pixels(left_arrow)
-
-        
+     
         time.sleep(delay)
         sense.set_pixels(no_arrow)
 
@@ -149,7 +148,7 @@ while True:
 
             if event.action == "pressed" and event.direction != "middle":
 
-                #store in curent_pattern
+                #store each event in curent_pattern
                 player_pattern.append(event.direction)
 
             if event.action == "released" and event.direction == "middle":
@@ -160,8 +159,5 @@ while True:
     else:
         next_level()
 
-        
-
-
-    
+ 
  
