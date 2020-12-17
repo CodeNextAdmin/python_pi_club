@@ -12,6 +12,11 @@ $ sudo apt-get install sense-hat
 $ sudo reboot
 
 ```
+#### Anvil
+```bash
+$ sudo pip install anvil-uplink
+
+```
 
 ## What's in the Repo?
 Starter files for the Python on Pi Club. 
