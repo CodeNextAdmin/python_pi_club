@@ -2,7 +2,6 @@ from sense_hat import SenseHat
 import time
 import random
 
-
 sense = SenseHat()
 sense.clear()
 
@@ -147,7 +146,6 @@ while True:
             # print(event.direction, event.action)
 
             if event.action == "pressed" and event.direction != "middle":
-
                 #store each event in curent_pattern
                 player_pattern.append(event.direction)
 
