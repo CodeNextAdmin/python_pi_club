@@ -65,5 +65,8 @@ level = 0
 
 while True:
     
-    time.sleep(.8)
+    time.sleep(.3)
     sense.set_pixels(up)
+    time.sleep(.3)
+    sense.set_pixels(down)
+    
