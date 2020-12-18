@@ -56,7 +56,7 @@ w,w,w,r,w,w,w,w
 ]
  
 #list of arrows
-arrows = [up, down, left, right]
+arrows = ["up", "right", "down", "left"]
 
 
 #variable to hold level
