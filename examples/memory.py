@@ -126,7 +126,7 @@ def next_level():
         time.sleep(delay)
         sense.set_pixels(no_arrow)
 
-        #prevent two reating arrows from appearing as one.
+        #prevent two repeating arrows from appearing as one.
         time.sleep(0.2)
 
     player_turn = True
