@@ -59,8 +59,8 @@ w,w,w,r,w,w,w,w
 arrows = [up, down, left, right]
 
 
-#variable to hold score
-score = 0
+#variable to hold level
+level = 0
 
 
 while True:
