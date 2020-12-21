@@ -11,7 +11,7 @@ w = (255,255,255)
 k = (0,0,0)
 
 
-left =[   
+left_arrow =[   
 w,w,w,w,w,w,w,w,
 w,w,r,w,w,w,w,w,
 w,r,r,w,w,w,w,w,
@@ -22,7 +22,7 @@ w,w,w,w,w,w,w,w,
 w,w,w,w,w,w,w,w
 ]
 
-right =[   
+right_arrow =[   
 w,w,w,w,w,w,w,w,
 w,w,w,w,w,r,w,w,
 w,w,w,w,w,r,r,w,
@@ -33,7 +33,7 @@ w,w,w,w,w,w,w,w,
 w,w,w,w,w,w,w,w
 ]
 
-down =[   
+down_arrow =[   
 w,w,w,w,w,w,w,w,
 w,w,w,r,w,w,w,w,
 w,w,w,r,w,w,w,w,
@@ -44,7 +44,7 @@ w,w,r,r,r,w,w,w,
 w,w,w,r,w,w,w,w
 ]
 
-up =[   
+up_arrow =[   
 w,w,w,r,w,w,w,w,
 w,w,r,r,r,w,w,w,
 w,r,r,r,r,r,w,w,
@@ -66,7 +66,7 @@ level = 0
 while True:
     
     time.sleep(.3)
-    sense.set_pixels(up)
+    sense.set_pixels(up_arrow)
     time.sleep(.3)
-    sense.set_pixels(down)
+    sense.set_pixels(down_arrow)
     
