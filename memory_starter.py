@@ -11,6 +11,17 @@ w = (255,255,255)
 k = (0,0,0)
 
 
+no_arrow = [
+w,w,w,w,w,w,w,w,
+w,w,w,w,w,w,w,w,
+w,w,w,w,w,w,w,w,
+w,w,w,w,w,w,w,w,
+w,w,w,w,w,w,w,w,
+w,w,w,w,w,w,w,w,
+w,w,w,w,w,w,w,w,
+w,w,w,w,w,w,w,w
+]
+
 left_arrow =[   
 w,w,w,w,w,w,w,w,
 w,w,r,w,w,w,w,w,
