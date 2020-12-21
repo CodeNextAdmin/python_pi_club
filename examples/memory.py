@@ -146,7 +146,7 @@ while True:
             # print(event.direction, event.action)
 
             if event.action == "pressed" and event.direction != "middle":
-                #store each event in curent_pattern
+                #store each event in player_pattern
                 player_pattern.append(event.direction)
 
             if event.action == "released" and event.direction == "middle":
