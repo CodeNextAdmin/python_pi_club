@@ -14,10 +14,10 @@ $ sudo reboot
 ```
 #### Anvil
 ```bash
-$ sudo pip install anvil-uplink
+$ sudo pip3 install anvil-uplink
 
 ```
-
+This course will use Python 3, so make sure to use pip3 above. 
 ## What's in the Repo?
 Starter files for the Python on Pi Club, as well as fully-built examples. There are also some warm-ups and basic challenges.
 
