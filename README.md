@@ -28,4 +28,5 @@ The first game, introduced in session 1. The objective is to reproduce the seque
 - Add more animations.
 - Play sound when the user guesses right, or loses game, for example (must wear headphones, or connect to a TV/monitor).
 
-
+## Remote Message
+Remote message is a sample app to demo the Anvil service. The **remote_message.py** file uses the Anvil unplik service and acts as the server, allowing web clients from accessing the pi through it's exposed methods, which are flagged with the @anvil.server.callable decorator. In order to run this demo, you must also clone the client web app [Remote App](https://anvil.works/build#clone:XVB2OIJR2V4DT5Y2=4SQ25RYVZG45OFIU7IXI6KA6)
