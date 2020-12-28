@@ -102,7 +102,7 @@ def next_level():
     current_pattern = [] #clear it before refilling
     player_pattern =[]
 
-    sense.show_message("LEVEL " + str(level), scroll_speed=.05)
+    sense.show_message( str(level), scroll_speed=.2)
 
     #build the new pattern with random choices from the arrows list
     for i in range(level+2):

@@ -59,11 +59,13 @@ w,w,w,r,w,w,w,w
 arrows = [up, down, left, right]
 
 
-#variable to hold score
-score = 0
+#variable to hold level
+level = 0
 
 
 while True:
     
-    time.sleep(.8)
+    time.sleep(.3)
     sense.set_pixels(up)
+    time.sleep(.4)
+    sense.set_pixels(down)
