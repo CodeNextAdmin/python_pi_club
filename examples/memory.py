@@ -2,7 +2,6 @@ from sense_hat import SenseHat
 import time
 import random
 
-
 sense = SenseHat()
 sense.clear()
 
@@ -123,12 +122,11 @@ def next_level():
 
         else:
             sense.set_pixels(left_arrow)
-
-        
+     
         time.sleep(delay)
         sense.set_pixels(no_arrow)
 
-        #prevent two reating arrows from appearing as one.
+        #prevent two repeating arrows from appearing as one.
         time.sleep(0.2)
 
     player_turn = True
@@ -148,8 +146,7 @@ while True:
             # print(event.direction, event.action)
 
             if event.action == "pressed" and event.direction != "middle":
-
-                #store in curent_pattern
+                #store each event in player_pattern
                 player_pattern.append(event.direction)
 
             if event.action == "released" and event.direction == "middle":
@@ -160,8 +157,5 @@ while True:
     else:
         next_level()
 
-        
-
-
-    
+ 
  
