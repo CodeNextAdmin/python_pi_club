@@ -66,8 +66,6 @@ def new_berry():
     berry_y = 0
     berry_x = random.randrange(0,7)
 
-    return berry_x
-
    
 while game_over == False:
     
