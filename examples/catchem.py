@@ -10,18 +10,13 @@ sense.clear()
 # set up the variables
 game_over = False
  
-
 catcher_x = 0 #will only need to move from L to R
 score = 0
-level = 1
 berry_x = random.randrange(0,7)
 berry_y = 0
 
 c = (0, 255, 255)  #cyan color
-k = (0,0,0) #blank/black
-f = (255, 255, 255)
 d = (255, 0 , 128 ) #dark pink for raspberries
-r = (255, 0, 0)
 o = (255, 128, 0)
 
 """
