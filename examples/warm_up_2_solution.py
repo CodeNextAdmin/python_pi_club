@@ -13,7 +13,6 @@ def quickLib(name):
 # quickLib(name)
 
 
-
 #Challenge 2 Solution
 def smile():
   while True:

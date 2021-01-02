@@ -72,13 +72,7 @@ def new_berry():
     berry_y = 0
     berry_x = random.randrange(0,7)
 
-
-
-
-    return berry_x
-
 while game_over == False:
-    
 
     for event in sense.stick.get_events():
         print(event)
@@ -89,7 +83,6 @@ while game_over == False:
         if event.action == "pressed" and event.direction == "right":
             move_right()
 
-
     if catcher_x == berry_x and berry_y == 7:
         print("You got one!")
         score = score + 1
@@ -98,18 +91,3 @@ while game_over == False:
     update()
     time.sleep(.2)
     
-    
-
-
-
-"""
-
-Day 1: GEt the catcher to move from L to R
-1. declare variables
-2. set up the game loop
-3. move the catcher pixel with the joystick, set limits.
-4. define function to move left or right
-
-Day 2: Drop the berries and add collision code
-1. 
-"""
