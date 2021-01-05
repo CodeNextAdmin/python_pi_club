@@ -66,14 +66,9 @@ def new_berry():
     berry_y = 0
     berry_x = random.randrange(0,7)
 
-<<<<<<< HEAD
-while game_over == False:
 
-=======
-   
 while game_over == False:
     
->>>>>>> ce4b3b242b608b6e7f3a31d58f68d15f82062591
     for event in sense.stick.get_events():
         print(event)
 
@@ -91,7 +86,4 @@ while game_over == False:
     update()
     time.sleep(.2)
     
-<<<<<<< HEAD
-=======
-   
->>>>>>> ce4b3b242b608b6e7f3a31d58f68d15f82062591
+
