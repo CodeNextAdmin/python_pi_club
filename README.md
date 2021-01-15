@@ -12,7 +12,6 @@ $ sudo apt-get install sense-hat
 $ sudo reboot
 
 ```
-This course will use Python 3, so make sure to use pip3 above. 
 ## What's in the Repo?
 Starter files for the Python on Pi Club, as well as fully-built examples for games. There are also some warm-ups and basic challenges. 
 
