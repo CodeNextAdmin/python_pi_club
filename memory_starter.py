@@ -77,13 +77,7 @@ level = 0
 while True:
     
     time.sleep(.3)
-<<<<<<< HEAD
-    sense.set_pixels(up)
-    time.sleep(.4)
-    sense.set_pixels(down)
-=======
     sense.set_pixels(up_arrow)
     time.sleep(.3)
     sense.set_pixels(down_arrow)
-    
->>>>>>> bcce0f7ce7fbdca45ca322def6764df73acb9861
+
